@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    border-radius: .25rem;
+}
+
+/* start global rules */
+.container {
+
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+  margin: .625rem;
+  border: 3px solid red;
+}
+
+
+/* end global rules */
+
+
+
+/* start styling main plus header element */
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background: linear-gradient(45deg, rgb(17 203 255 / 50%), transparent);
+
+}
+
+
+/* end styling main and header element */
+/* ------------------------------------------------------------------------------------------- */
+/* start styling main plus main element */
+.main-aside-div {
+    border: 2px solid rgb(0, 21, 255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+
+}
+
+.main-container {
+    /*  */
+    max-width: 70%;
+    padding: 0;
+
+}
+
+.articles-container {
+    margin: .625rem;
+    background: linear-gradient(45deg, rgb(17 203 255 / 50%), transparent);
+}
+.articles-container  p:first-child{
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    background: linear-gradient(45deg, rgb(17 203 255 / 50%), transparent);
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 18px;
+}
+.articles-container  p:last-child{
+    padding: 10px;
+    margin-top: 0;
+    background: linear-gradient(45deg, rgb(17 203 255 / 50%), transparent);
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.post-container {
+     background-color:white;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-post {
+    border-radius: 0;
+    width: 40%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.main-posts {
+
+    width: 60%;
+    padding: 10px;
+
+}
+
+/* end styling main and main element */
+/* ------------------------------------------------------------------------------------------- */
+
+/* start styling main plus aside element */
+.aside {
+    max-width: 30%;
+
+}
+.aside p {
+    background: linear-gradient(45deg, rgb(17 203 255 / 50%), transparent);
+ 
+}
+
+/* end styling main and aside element */
+/* start styling main plus footer element */
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background: linear-gradient(45deg, rgb(17 203 255 / 50%), transparent);
+}
+
+/* end styling main and footer element */

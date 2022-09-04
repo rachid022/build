@@ -1,0 +1,27 @@
+*{
+    /* border: 2px solid white;
+    background-color: white;
+    color: black; */
+
+}
+.tableparent table.new-table, .new-post-content .tableparent table.new-table {
+    box-shadow: none;
+    margin: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    background-color: blue;
+    color: white;
+    font-size: 00.7rem;
+    text-align: center;
+    line-height: normal;
+}
+td{
+    border-color: azure;
+}
+a{
+    color: rgb(230, 27, 27);
+    text-decoration: underline;
+}
